@@ -34,6 +34,7 @@ const Users = () => {
               <th></th>
               <th>Email</th>
               <th>Create At</th>
+              <th>last Logged In</th>
               <th>Action</th>
             </tr>
           </thead>
@@ -43,6 +44,7 @@ const Users = () => {
                 <th>{user._id}</th>
                 <td>{user.email}</td>
                 <td>{user.createdAt}</td>
+                <td>{user.lastLoggedAt}</td>
                 <td>
                   {" "}
                   <button
